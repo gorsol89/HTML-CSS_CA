@@ -10,53 +10,7 @@ h1 {
     background-image: url("../Images/three\ people\ hiking\ from\ the\ back.jpg") 
     }
 
-section {
-    /* Rectangle 1 */
-    position: absolute;
-    Width: 1196px;
-    height: 450px;
-    left: 122px;
-    top: 260px;
-
-    background: url("../Images/three\ people\ hiking\ from\ the\ back.jpg");
-
-    /* Rectangle 6 */
-    
-    Position: absolute;
-    width: 180px;
-    height: 56px;
-    left: 630px;
-    top: 606px;
-
-    /* Rectangle 25 */
-
-    position: absolute;
-    width: 1196px;
-    height: 76px;
-    left: 122px;
-    top: 499px;
-
-    background: #FDFDFD
-    opacity: 0.6;
-
-    /* Rain Jackets */
-
-    position: absolute;
-    width: 300px;
-    height: 59px;
-    left: 570px;
-    top: 507px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 59px;
-    /* identical to box height */
-    text-align: center;
-
-    color: #000000; 
-
+section 
 
 
 footer {
