@@ -16,7 +16,7 @@ nav ul {
     background-color: teal;
     color: #fff
 }
-.products {
+.category {
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
 }

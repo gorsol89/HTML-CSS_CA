@@ -1,0 +1,44 @@
+nav li {
+    display: inline-block;
+    font-size: larger;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav ul {
+    padding: 0px;
+}
+.active {
+    background-color: teal;
+    color: #fff
+}
+.container {
+    display: flex;
+}
+.item {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+main {
+    background-color: teal;
+    min-height: 100vh;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    'header header'
+    'main main'
+    'footer footer'
+}
+main, section, footer {
+    background: grey;
+}
+header{grid-area:header;}
+main{grid-area: main;}
+section{grid-area: section;}
+footer{grid-area: footer;}
