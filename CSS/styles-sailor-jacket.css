@@ -1,6 +1,15 @@
+html {
+    padding-top: 8px;
+    margin: 0 auto;
+    float: none;
+    max-width: 1360px;
+}
+header {
+    justify-content: space-around;
+    padding: 15px;
+}
 nav li {
-    display: inline-block;
-    font-size: larger;
+    display: inline-block;    
 }
 nav a {
     color: #000;
@@ -12,10 +21,15 @@ nav a:hover {
 }
 nav ul {
     padding: 0px;
+    justify-content: space-evenly;
 }
 .active {
     background-color: teal;
     color: #fff
+}
+.logo-container {
+    padding-top: 5px;
+    max-width: 600px;
 }
 .container {
     display: flex;
@@ -25,20 +39,20 @@ nav ul {
     padding: 10px;
     margin: 10px;
 }
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
 main {
-    background-color: teal;
-    min-height: 100vh;
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas: 
-    'header header'
-    'main main'
-    'footer footer'
+    justify-content: space-evenly;
+    display: inline-block;
+    text-align: left;
 }
-main, section, footer {
-    background: grey;
+footer {
+    padding-top: 50px;
+    background-color: lightgrey;
+    font-size: larger;
+    justify-content: space-evenly;
+    display: flex;
 }
-header{grid-area:header;}
-main{grid-area: main;}
-section{grid-area: section;}
-footer{grid-area: footer;}

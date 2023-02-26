@@ -1,5 +1,15 @@
+html {
+    padding-top: 8px;
+    margin: 0 auto;
+    float: none;
+    max-width: 1360px;
+}
+header {
+    justify-content: space-around;
+    padding: 15px;
+}
 nav li {
-    display: inline-block;
+    display: inline-block;    
 }
 nav a {
     color: #000;
@@ -11,10 +21,15 @@ nav a:hover {
 }
 nav ul {
     padding: 0px;
+    justify-content: space-evenly;
 }
 .active {
     background-color: teal;
     color: #fff
+}
+.logo-container {
+    padding-top: 5px;
+    max-width: 600px;
 }
 .category {
     display: grid;
@@ -23,8 +38,7 @@ nav ul {
 .product {
     background-color: lightgray;
 }
-.product figure {
-}
+
 div {
     text-align: center;  
     border: 1px solid black;
