@@ -26,9 +26,10 @@ nav ul {
     padding-top: 5px;
     max-width: 600px;
 }
-main {
+
+.Contact-persons {
     display: grid;
-    justify-content: space-evenly
+    justify-content: space-evenly;
     grid-template-columns: repeat(2,1fr);
     text-align: left;
 }

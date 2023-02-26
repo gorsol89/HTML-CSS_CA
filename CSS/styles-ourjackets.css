@@ -34,12 +34,10 @@ nav ul {
 .category {
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
+    text-align: center;  
 }
 .product {
     background-color: lightgray;
-}
-
-div {
     text-align: center;  
     border: 1px solid black;
 }
@@ -54,6 +52,17 @@ a {
     display: flex;
     justify-content: space-around;
 }  
+button {
+    background-color: teal;
+    border-radius: 18px;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    color:#fff;
+    text-decoration: none;
+
+    
+}
 footer {
     padding-top: 50px;
     background-color: lightgrey;

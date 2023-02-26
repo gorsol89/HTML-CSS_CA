@@ -31,39 +31,11 @@ nav ul {
     padding-top: 5px;
     max-width: 600px;
 }
-nav li {
-    display: inline-block;
-}
-nav a {
-    color: #000;
-    text-decoration: none;
-    padding: 10px;
-}
-nav a:hover {
-    text-decoration: underline;
-}
-nav ul {
-    padding: 0px;
-}
-.active {
-    background-color: teal;
-    color: #fff
-}
 main {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
 }
-.information {
-    float:left;
-    text-decoration: none;
-}
-.payment{
-    float: right;
-    text-decoration: solid;
-    padding: left;
-}
-
 footer {
     padding-top: 50px;
     background-color: lightgrey;
@@ -71,6 +43,16 @@ footer {
     justify-content: space-evenly;
     display: flex;
 }
+button {
+    background-color: teal;
+    border-radius: 18px;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    color:#fff;
+    text-decoration: none;
+}
+
 @media(max-width:600px){
     .products {
         grid-template-columns: repeat(2,1fr);

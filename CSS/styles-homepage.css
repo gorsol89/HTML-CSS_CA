@@ -58,6 +58,16 @@ footer {
     display: flex;
 
 }
+button {
+    background-color: teal;
+    border-radius: 18px;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    color:#fff;
+    text-decoration: none;
+}
+
 @media(max-width:600px){
     .products {
         grid-template-columns: repeat(2,1fr);

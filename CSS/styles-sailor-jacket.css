@@ -31,24 +31,24 @@ nav ul {
     padding-top: 5px;
     max-width: 600px;
 }
-.container {
-    display: flex;
-}
-.item {
-    flex: 1;
-    padding: 10px;
-    margin: 10px;
-}
-body {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px;
-}
 main {
-    justify-content: space-evenly;
-    display: inline-block;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
 }
+.information {
+    float: right;
+    background-color: 
+}
+button {
+    background-color: teal;
+    border-radius: 18px;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    color:#fff;
+    text-decoration: none;
+}
+
 footer {
     padding-top: 50px;
     background-color: lightgrey;
