@@ -3,10 +3,7 @@ html {
     margin: 0 auto;
     max-width: 1360px;
 }
-body {
-    
-}
-nav li {
+ li {
     display: inline-block;
 }
 nav a {
@@ -24,23 +21,19 @@ nav ul {
     background-color: teal;
     color: #fff
 }
-main {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
+
 .logo-container {
     padding-top: 5px;
     max-width: 600px;
 }
-button {
+.cta {
     background-color: teal;
     border-radius: 18px;
-    width: 150px;
-    height: 40px;
     font-size: large;
-    color:#fff;
-    text-decoration: none;   
-}
+    color: #fff;
+    text-decoration: none;
+    padding:5px 20px;
+  }
 footer {
     background-color: lightgrey;
     font-size: larger;
@@ -48,18 +41,3 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
-
-@media(max-width:981px){
-    .Category {
-        grid-template-columns: 1fr;
-    }
-@media(max-width:600px){
-        .products {
-            grid-template-columns: repeat(2,1fr);
-        }
-    }
-@media(max-width:400px){
-        .products {
-            grid-template-columns: 1fr;
-        }
-    }
