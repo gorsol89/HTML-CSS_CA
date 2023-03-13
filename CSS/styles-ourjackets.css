@@ -1,36 +1,4 @@
-html {
-    padding-top: 8px;
-    margin: 0 auto;
-    float: none;
-    max-width: 1360px;
-}
-header {
-    justify-content: space-around;
-    padding: 15px;
-}
-nav li {
-    display: inline-block;    
-}
-nav a {
-    color: #000;
-    text-decoration: none;
-    padding: 10px;
-}
-nav a:hover {
-    text-decoration: underline;
-}
-nav ul {
-    padding: 0px;
-    justify-content: space-evenly;
-}
-.active {
-    background-color: teal;
-    color: #fff
-}
-.logo-container {
-    padding-top: 5px;
-    max-width: 600px;
-}
+
 .category {
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
@@ -52,21 +20,3 @@ a {
     display: flex;
     justify-content: space-around;
 }  
-button {
-    background-color: teal;
-    border-radius: 18px;
-    width: 150px;
-    height: 40px;
-    font-size: large;
-    color:#fff;
-    text-decoration: none;
-
-    
-}
-footer {
-    padding-top: 50px;
-    background-color: lightgrey;
-    font-size: larger;
-    justify-content: space-evenly;
-    display: flex;
-}
